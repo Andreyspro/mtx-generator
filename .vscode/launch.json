@@ -5,7 +5,7 @@
             "name": "CPP run all",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "program": "${fileDirname}/bin/${fileBasenameNoExtension}",
             "externalConsole": true,
             "args": [],
             "stopAtEntry": false,
@@ -16,7 +16,7 @@
             "name": "CPP debug all",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "program": "${fileDirname}/bin/${fileBasenameNoExtension}",
             "args": [
             ],
             "stopAtEntry": false,

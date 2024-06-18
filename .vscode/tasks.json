@@ -13,7 +13,7 @@
         "${fileDirname}/*.cpp",
         "-O2",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}",
+        "${fileDirname}/bin/${fileBasenameNoExtension}",
         "-lboost_filesystem"
       ],
       "options": {
@@ -34,7 +34,7 @@
         "-g",
         "${fileDirname}/*.cpp",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}",
+        "${fileDirname}/bin/${fileBasenameNoExtension}",
         "-lboost_filesystem",
       ],
       "options": {
